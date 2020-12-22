@@ -2,10 +2,11 @@ use Mix.Config
 
 # Configure your database
 config :scratchy_phoenix, ScratchyPhoenix.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "scratchy",
+  password: "secret",
   database: "scratchy_phoenix_dev",
   hostname: "localhost",
+  port: 30533,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
